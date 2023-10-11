@@ -1,87 +1,126 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
- }
-
- body{
-    background-color:black;
- }
-
- header{
-    background-color: dodgerblue;
-    border-bottom:3px solid white;
-    margin-bottom: 10px;
- }
-
- footer{
-    background-color: dodgerblue;
-    border-top: 3px solid white;
-    text-align: center;
-    padding: 10px;
- }
-
- article{
-    background-color: rgb(161, 171, 229);
-    margin: 0 auto 20px;
-    border: 2px solid dodgerblue;
-    padding: 50px;
-    width: 70%;
-    border-radius: 10px;
-
-
- }
-
- nav{
-    list-style-type: none;
- }
-
- .nav-bar, .nav-link{
-    display: inline;
-
- }
-
- #brand-title{
-    margin-right: 20px;
- }
-
- a{
-    color:black;
-    padding: 5px;
-    text-decoration: none;
- }
-
- a:hover{
-    color:tomato;
- }
-
-main{
-    text-align: center;
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
 }
 
- form{
-    border:2px solid black;
-    width: 30%;
-    margin: 0, auto, 20 px;
-    border-radius:20 px;
-    padding:20 px;
-   
- }
+body {
+   background-color: black;
+   text-align: center;
 
- .form-label{
-    margin-top: 10px;
-    margin-bottom: 5px;
- }
+}
 
- input, textarea{
-    padding: 5px;
-    border-radius: 3px;
- }
+header {
+   background-color: dodgerblue;
+   border-bottom: 3px solid black;
+   margin-bottom: 10px;
+   text-align: center;
+}
 
- #profile-picture{
-    border-radius: 50%;
-    border: 2px solid black;
-    max-width: 30%;
-   
+footer {
+   background-color: dodgerblue;
+   border-top: 3px solid black;
+   border-radius: 5px;
+   text-align: center;
+   padding: 10px;
+}
 
- }
+article {
+   background-color: dodgerblue;
+   margin: 0 auto 20px;
+   border: 2px solid black;
+   padding: 30px;
+   width: 70%;
+   border-radius: 10px;
+}
+
+/*Combinator*/
+article h2 {
+   text-transform: uppercase;
+}
+
+
+
+nav {
+   list-style-type: none;
+}
+
+.nav-bar,
+.nav-link {
+   display: inline;
+
+}
+
+#brand-title {
+   margin-right: 20px;
+}
+
+a {
+   color: black;
+   padding: 5px;
+   text-decoration: none;
+}
+
+a:hover {
+   color: darkblue;
+}
+
+main {
+   text-align: center;
+}
+
+form {
+
+   width: 50%;
+   margin-left: 25%;
+   border-radius: 20 px;
+   padding: 20 px;
+
+}
+
+
+.form-label {
+   margin-top: 10px;
+   margin-bottom: 5px;
+
+}
+
+input,
+textarea {
+   padding: 5px;
+   border-radius: 10px;
+}
+
+#profile-picture {
+   border-radius: 20%;
+   border: 2px solid black;
+   max-width: 40%;
+   margin: 20px;
+
+}
+
+#Grace_walk {
+   border-radius: 20%;
+   border: 2px solid black;
+   max-width: 60%;
+   margin: 20px;
+
+
+
+
+}
+
+/*Pseudo classes*/
+footer p:nth-child(1) {
+   color: aliceblue;
+}
+
+footer p:nth-last-child(2) {
+   color: aliceblue;
+}
+
+/* This is the pseudo element, but I don't want to use this right now. Thanks! It works though, please test if you'd like.
+p::first-line {
+color: aliceblue;
+font-variant: small-caps;
+} */

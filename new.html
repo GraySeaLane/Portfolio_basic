@@ -1,81 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
-   
-    <head>
-        <meta charset="UTF=8">
 
-        <title>My Portfolio</title>
-    
-        <link rel ="stylesheet" href="./new.css">
-    </head>
+<html lang="en"> <!--root element-->
 
-    <body>
-        <header>
-            <h1 class="nav-bar" id="brand-title">My website</h1>
-            
-            <nav class="nav-bar">
-                <ul class="nav-bar">
-                    <li class="nav-link">
-                        <a href="#">Home</a>
-                    </li>
+<head><!--information back to html-->
+    <meta charset="UTF=8">
 
-                    <li class="nav-link">
-                        <a href="#">About</a>
-                    </li>
+    <title>My Portfolio</title><!-- Text in browser tab-->
 
-                    <li class="nav-link">
-                        <a href="#">Contact</a>
+    <link rel="stylesheet" href="./new.css"> <!--links css-->
+</head>
 
-                    </li>
-                </ul>
-            </nav>
+<body> <!--elements nested in body-->
+    <header>
+        <h1 class="nav-bar" id="brand-title">Grace Elaine Brinkley</h1>
 
-        </header>
+        <nav class="nav-bar">
+            <ul class="nav-bar">
+                <li class="nav-link">
+                    <a href="#">Hobbies</a>
+                </li>
 
-        <main>
-            <article>
-                <img src="/images/Grace.jpeg" id="profile-picture" alt = "Portfolio Picture">
-                <h2>Grace Elaine</h2>
-                <p>Welcome to My Website</p>
-                <p>Hi there! So many things!</p>
+                <li class="nav-link">
+                    <a href="dog.html">My Dogs</a>
+                </li>
 
-            </article>
-                
-            <article>
-                <h2>Contact Me</h2>
-                <form>
-                    <div class="form-label">
-                        <label for="name-field">Name</label>
-                    
-                    </div>
+                <li class="nav-link">
+                    <a href="#">Contact</a>
 
-                    <div>
-                        <input id="name-field" type="text" placeholder="Name">
+                </li>
+            </ul>
+        </nav>
 
-                    </div>
+    </header>
 
-                    <div>
-                        <label for="message-field">Message</label>
+    <main>
+        <article>
+            <img src="/images/Grace.jpeg" id="profile-picture" alt="Portfolio Picture">
+            <h2>Hello and welcome!</h2>
+            <p>I was born in CA, I have lived in 21 different countries and 3 different states. I currently live in TN,
+                about 50 minutes outside of Nashville. I originally went to school to become a Respiratory Care
+                Practitioner. I worked in the ER, Trauma, ICU and burn unit for 10+ years. Basically, if your were
+                coding(not what we are doing), I was there! </p>
+            <img src="/images/Gracewalk.jpeg" id="Grace_walk" alt="Walking away with dogs">
+            <p>I decided to get out of the medical field and I almost became a web developer 7 years ago, but chose to
+                start my business instead. I started my first business called<a
+                    href="https://www.luckydogsanfrancisco.com/">Lucky Dog</a>about 7 years ago. I sold that business to
+                buy a home here in TN. I've been dog training, boarding and walking ever since. </p>
+            <p>When I am not working you will find me outside exploring, hiking, paddleboarding, camping. If the weather
+                is terrible and I do mean terrible then I will be inside playing games, playing piano, writing or
+                cuddling with my boyfriend and pups.</p>
+            <p>I got into coding 7 year ago and did some html, css and javascript courses on Kahn Academy. I was very
+                fascinated with it and intended to continue learning it, but my business took off. Now, with my new
+                business, I mainly do the dog training and administrative work so I have time to focus on becoming a web
+                developer.</p>
+        </article>
 
-                    </div>
+        <article>
+            <h2>Contact Me</h2>
+            <!--Name-->
+            <form>
+                <div class="form-label">
+                    <label for="name-field">Name</label>
 
-                    <div>
-                        <textarea id="message-field" type="text" placeholder="Message"></textarea>
-                    </div>
+                </div>
 
-                    <button>Submit</button>
+                <div>
+                    <input id="name-field" type="text" placeholder="Name">
 
-                </form>
-            </article>
+                </div>
+                <!--message-->
+                <div>
+                    <label for="message-field">Message</label>
 
-        </main>
+                </div>
+                <!--comments-->
+                <div>
+                    <textarea id="message-field" type="text" placeholder="Message"></textarea>
+                </div>
+                <!--Mybutton-->
+                <button>Submit</button>
 
-        <footer>
-            <p>&copy; 2023 My Website. All rights reserved.</p>
-            <p>Contact: graysealane@gmail.com</p>
-            <a href="www.luckypawstn.com">Check out my business!</a>
-        </footer>
+            </form>
+        </article>
 
-    </body>
+    </main>
+
+    <footer> <!--comments here-->
+        <p>&copy; 2023 My Website. All rights reserved.</p>
+        <p>Contact: graysealane@gmail.com</p>
+        <a href="https://www.luckypawstn.com">Check out my current business!🐾</a>
+    </footer>
+
+</body>
 
 </html>
